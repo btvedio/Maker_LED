@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Aug  1 10:53:03 2020
+# Process ID: 18036
+# Current directory: C:/Users/Decade/Desktop/Maker_LED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13220 C:\Users\Decade\Desktop\Maker_LED\Maker_LED.xpr
+# Log file: C:/Users/Decade/Desktop/Maker_LED/vivado.log
+# Journal file: C:/Users/Decade/Desktop/Maker_LED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Decade/Desktop/Maker_LED/Maker_LED.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
